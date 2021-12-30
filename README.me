@@ -6,3 +6,9 @@ Configurar as credenciais em settings (login e senha do banco de dados)
 Executar a criação do banco de dados no shell do mysql : "CREATE DATABASE IF NOT EXISTS todos;"
 Executar : python manage.py migrate no escopo do projeto
 Executar : python manage.py runserver no escopo do projeto
+
+Para fazer login no site "127.0.0.1:8000/admin" :
+    Execute comando python manage.py createsuperuser e preencha as informações de login
+    Acesse o site e preencha com as credenciais necessárias
+
+Os demais acessos são realizados por meio de "127.0.0.1:8000/" + nome do endpoint (pais,estado ou municipio)
